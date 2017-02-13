@@ -23,8 +23,12 @@ or running /bin/www file using IDEs, like Webstorm: https://www.jetbrains.com/we
      - An .md file for checking the work that is assigned.
 
 *  Parts of project as now are as listed:
-    - AIMS auth linking management
-    - AIMS parsers
+    - AIMS auth-linking and parsing
+    - Acadamics hub: all acads related info in one place.
+    - Bus schedules: Bus schedules for the day displayed. Integrate with super-timetable and show optimal buses to catch with notifications.
+    - Notifications hub - Meant to replace email as the mode of delivering information to students. Can be organised into clubs, events etc. Events can also be integrated with custom timetable.
+    - Lost and found - One-stop for all lost-and-found announcements.
+    - Super Calendar - An integrated calendar with mess time tables, custom class timetable, club events, talks etc. Basically everything a person does in a day.
     - Frontend + frontend scripting
     - Rest of the Backend and Database management
 
