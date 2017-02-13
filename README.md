@@ -12,9 +12,9 @@ An easily accessible resource host which has curated content, relevant posts, co
 * You can try the current version by doing 
 
 ```
-npm start
+$ npm start
 ```
-or running /bin/www file using IDEs, like Webstorm: https://www.jetbrains.com/webstorm/
+at the root of this repository or running /bin/www file using IDEs, like Webstorm: https://www.jetbrains.com/webstorm/
 
 
 * Github repo instructions:
