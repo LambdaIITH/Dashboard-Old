@@ -19,7 +19,7 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
 * Add your new file / Edit existing files as you want. 
 
 ## STEP 3: Commit and Push the changes in your fork
- * While writing a commit message ,follow COMMIT_MESSAGE_GUIDELINES.md .Make changes and push it in the branch you checked out. 
+ * While writing a commit message, follow COMMIT_GUIDELINES.md. Make changes and push it in the branch you checked out. 
  
    ```
    git add .
