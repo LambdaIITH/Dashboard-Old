@@ -7,7 +7,7 @@ An easily accessible resource host which has curated content, relevant posts, co
     Here are some basics if you want to learn:
      - https://thinkster.io/tutorials/mean-stack
      - https://scotch.io/
-     - https://youtu.be/kHV7gOHvNdk
+     - https://youtube/kHV7gOHvNdk
 
 * You can try the current version by doing 
 
@@ -17,16 +17,16 @@ $ npm start
 at the root of this repository or running /bin/www file using IDEs, like Webstorm: https://www.jetbrains.com/webstorm/
 
 
-* Github repo instructions:
+* Github repository instructions:
      - Those who have less experience with git: https://help.github.com/articles/fork-a-repo/
      - Pull requests with good commits after review
-     - An .md file for checking the work that is assigned.
+     - An .md (MarkDown) file for checking the work that is assigned.
 
 *  Parts of project as now are as listed:
-    - AIMS auth-linking and parsing
-    - Acadamics hub: all acads related info in one place.
+    - AIMS auto-linking and parsing
+    - Academics hub: all academic related info in one place.
     - Bus schedules: Bus schedules for the day displayed. Integrate with super-timetable and show optimal buses to catch with notifications.
-    - Notifications hub - Meant to replace email as the mode of delivering information to students. Can be organised into clubs, events etc. Events can also be integrated with custom timetable.
+    - Notifications hub - Meant to replace email as the mode of delivering information to students. Can be organized into clubs, events etc. Events can also be integrated with custom timetable.
     - Lost and found - One-stop for all lost-and-found announcements.
     - Super Calendar - An integrated calendar with mess time tables, custom class timetable, club events, talks etc. Basically everything a person does in a day.
     - Frontend + frontend scripting
