@@ -7,14 +7,12 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
 * Clone the 'forked' repository i.e
   ```
   git clone https://github.com/YourUserName/Dashboard 
-
   ```
   
 ## STEP 2: Create a New branch and work on the changes you want to make:
 * Make a new branch in your fork and name it as per the feature you want to add i.e
   ```
   git checkout -b "relevantBranchName"
-  
   ```
 * Add your new file / Edit existing files as you want. 
 
@@ -39,8 +37,7 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
     
     ```
     git commit --amend
-    git push --force myfork
-    
+    git push --force myfork    
     ```
   * As people work on Dashboard new commits will be added. This will result in your local fork going out of sync with the remote repository. To sync your changes with the remote repository run the following commands in the desired branch  
     ```
@@ -53,23 +50,30 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
   
   * If you are asked to make changes in your files instead of continously making changes with multiple commits , please rebase it into a single commit :
     * Let's say you opened a pull request which had one commit ( Always do like that ) . Now you are instructed to make changes . You pushed the changes like 
+
       ```
       git commit -m "Correct mistakes"
       git push myfork relevantBranchName
-
       ```
     * Now you have 2 commits in your pull request , and should be rebased into 1 commit.For that, do :
     
       ```
       git rebase -i master
-
       ```
       
       An editor will be fired up with all the commits in your current branch (ignoring merge commits), which come after the given commit. Keep the first one as “pick” and on the second and subsequent commits with “squash”. After saving, another editor will be fired up with all the messages of commits which you want to squash. Clean up all the messages and add a new message to be displayed for the single commit.
       Then do :
+
       ```
       git push --force myfork
-      
       ```
       
- ## STEP 6 : You're done ! Your Pull Request can be merged by the admins now. 
+ ## STEP 6 : You're done! Your Pull Request can be merged by the admins now. 
+
+ ## NOTE
+   * Make sure your .gitignore has the same contents as ours! The .gitignore file contains all user-specific files that, don't need to be shared with others. After you do, run the following - 
+
+ 	```
+ 	git rm --cached .idea/workspace.xml
+ 	```
+   * Add and commit these changes again.
