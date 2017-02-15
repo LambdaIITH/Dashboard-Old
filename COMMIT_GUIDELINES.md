@@ -1,4 +1,4 @@
-# Commit Guidelines 
+# Commit Guidelines  
 
 ## What Makes a Good Commit
 A good commit is atomic. It should describe only one change and not more.
@@ -22,12 +22,14 @@ A commit message consists of 3 parts:
     * Should describe the reasoning for your changes. This is especially important for complex changes that are not self explanatory. This is also the right place to write about related bugs.
     * First person should not be used here.
   * Issue reference (Optional)
+
     * Example:
       ```
       Fixes https://github.com/LambdaIITH/Dashboard/issues/69
       
       ```
 ##Example:
+
   ```
   route.js: Add routes for new academic portal
   
