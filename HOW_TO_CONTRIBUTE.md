@@ -23,30 +23,31 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
  
    ```
    git add .
-   git add remote myfork https://github.com/YourUserName/Dashboard
+   git remote add myfork https://github.com/YourUserName/Dashboard
    git commit  
    git push myfork relevantBranchName
    ```
 
 ## STEP 4 : Open a Pull request 
   * Goto your fork link in browser , select the branch you checked out and follow the prompt of opening a new pull request.
-  * You can also go to https://github.com/LambdaIITH/Dashboard/pulls and click on New pull request and select the branch you used to make the feature.
+  * You can also go to https://github.com/LambdaIITH/Dashboard/pulls and click on New pull request, click on "Compare across forks" at the top, and select your fork as the head fork. Then select the branch you used to make the feature.
+  * Make sure your pull request is well documented, so that the admins know what changes you've made. 
 
 ## STEP 5 : Review by admins and making changes 
   * After you submit your pull request , admins will review it and instruct you to make some changes if we find something is wrong.
   * If you are asked to Change your commit message , do :
     
     ```
-    git commit -a -amend
+    git commit --amend
     git push --force myfork
     
     ```
   * As people work on Dashboard new commits will be added. This will result in your local fork going out of sync with the remote repository. To sync your changes with the remote repository run the following commands in the desired branch  
     ```
-    git remote add origin https://github.com/LambdaIITH/Dashboard
-    git fetch origin
+    git remote add lambda https://github.com/LambdaIITH/Dashboard
+    git fetch lambda
     git checkout relevantBranchName
-    git rebase origin/master
+    git rebase lambda/master
     git push myfork --force
     ```
   
@@ -57,7 +58,7 @@ Anyone who is looking forward to contribute to Dashboard , please follow the fol
       git push myfork relevantBranchName
 
       ```
-    * Now you have 2 commits in your pull request , and should be rebased into 1 commit.For that ,do :
+    * Now you have 2 commits in your pull request , and should be rebased into 1 commit.For that, do :
     
       ```
       git rebase -i master
