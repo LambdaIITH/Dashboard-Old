@@ -1,7 +1,7 @@
 # Commit Guidelines
 
 ## What Makes a Good Commit
-A good commit is atomic. It should describe only one change and not more.
+A good commit is atomic. It should describe only one change and no more.
 
 ## How to Write Good Commit Messages
 A commit message consists of 3 parts:
