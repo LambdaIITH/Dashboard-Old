@@ -18,7 +18,7 @@ A commit message consists of 3 parts:
         * No trailing period.  
   * Commit body 
     * Maximum of 72 chars excluding newline for each line.
-    * Not mandatory - but helps explain what you’re doing.
+    * Not mandatory - but helps explain what you are doing.
     * Should describe the reasoning for your changes. This is especially important for complex changes that are not self explanatory. This is also the right place to write about related bugs.
     * First person should not be used here.
   * Issue reference (Optional)
